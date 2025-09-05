@@ -7,7 +7,12 @@ import Header from "./Header";
 //Rule4: attribute class = classname
 
 function App() {
-  return (
+    var x=10;
+    function updateState() {
+        x=15;
+    }
+
+    return (
       <>
           <Header name="Shreyash"/>
           <Header name="ohyeah0079"/>
