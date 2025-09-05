@@ -8,18 +8,7 @@ import ChildA from "./ChildA";
 //Rule4: attribute class = classname
 
 function App() {
-    const refElement=useRef("");
-    const [name,setName]=useState("Shreyash")
-
-    function Reset() {
-        setName("")
-        refElement.current.focus()
-    }
-
-    function handleInput() {
-        refElement.current.style.color="gray"
-    }
-
+const name= "Shreyash"
     return (
       <>
           <h1>Learning useRef</h1>
