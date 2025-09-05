@@ -12,6 +12,10 @@ function App() {
         setCounter(count+1)
     }
 
+    function updateData() {
+        setData("Seeta")
+    }
+
     return (
       <>
           <h1>Button Clicked {count} times</h1>
