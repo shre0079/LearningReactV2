@@ -1,5 +1,5 @@
 import './App.css';
-import Header from "./Header";
+import {useState, React} from "react";
 
 //Rule1: use parent element
 //Rule2: js expressions must be wrapped in {}
