@@ -8,6 +8,12 @@ import {useState, React} from "react";
 
 function App() {
     const [count, setCounter]=useState(0)
+    const [data,setData]=useState("Ram")
+
+    useEffect(() => {
+        console.log("Component Mounted")
+    },[data,count]); //use effect is always run when something is rendered, [] gives it condition to run
+
     function updateCount(){
         setCounter(count+1)
     }
