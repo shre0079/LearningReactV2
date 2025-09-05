@@ -14,9 +14,8 @@ function App() {
 
     return (
       <>
-          <Header name="Shreyash"/>
-          <Header name="ohyeah0079"/>
-          <Header name="Mr. Shreyash"/>
+          <h1>Learning State {x}</h1>
+          <button onClick={updateState}>Click me</button>
       </>
   );
 }
