@@ -7,9 +7,9 @@ import {useState, React} from "react";
 //Rule4: attribute class = classname
 
 function App() {
-    var x=10;
-    function updateState() {
-        x=15;
+    const [count, setCounter]=useState(0)
+    function updateCount(){
+        setCounter(count+1)
     }
 
     return (
