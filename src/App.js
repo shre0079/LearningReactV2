@@ -14,8 +14,8 @@ function App() {
 
     return (
       <>
-          <h1>Learning State {x}</h1>
-          <button onClick={updateState}>Click me</button>
+          <h1>Button Clicked {count} times</h1>
+          <button onClick={updateCount}>Click</button>
       </>
   );
 }
