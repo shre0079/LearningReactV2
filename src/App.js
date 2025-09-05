@@ -21,9 +21,10 @@ function App() {
 
     return (
       <>
-          <h1>Button Clicked {count} times</h1>
-          <button onClick={updateCount}>Click</button>
-          <button onClick={updateData}> Update Data</button>
+          <h1>Learning useRef</h1>
+          <input ref={refElement} type="text" value={name} onChange={(e)=> setName(e.target.value)}></input>
+          <button onClick={Reset}>Reset</button>
+          <button onClick={handleInput}>handleInput</button>
       </>
   );
 }
