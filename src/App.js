@@ -11,10 +11,7 @@ function App() {
 const name= "Shreyash"
     return (
       <>
-          <h1>Learning useRef</h1>
-          <input ref={refElement} type="text" value={name} onChange={(e)=> setName(e.target.value)}></input>
-          <button onClick={Reset}>Reset</button>
-          <button onClick={handleInput}>handleInput</button>
+          <ChildA npame={name}></ChildA>
       </>
   );
 }
