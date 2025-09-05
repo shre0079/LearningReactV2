@@ -10,8 +10,9 @@ function App() {
     const refElement=useRef("");
     const [name,setName]=useState("Shreyash")
 
-    function updateCount(){
-        setCounter(count+1)
+    function Reset() {
+        setName("")
+        refElement.current.focus()
     }
 
     function updateData() {
