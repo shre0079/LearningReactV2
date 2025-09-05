@@ -15,8 +15,8 @@ function App() {
         refElement.current.focus()
     }
 
-    function updateData() {
-        setData("Seeta")
+    function handleInput() {
+        refElement.current.style.color="gray"
     }
 
     return (
