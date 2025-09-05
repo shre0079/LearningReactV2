@@ -7,12 +7,8 @@ import {useState, React, useEffect} from "react";
 //Rule4: attribute class = classname
 
 function App() {
-    const [count, setCounter]=useState(0)
-    const [data,setData]=useState("Ram")
-
-    useEffect(() => {
-        console.log("Component Mounted")
-    },[data,count]); //use effect is always run when something is rendered, [] gives it condition to run
+    const refElement=useRef("");
+    const [name,setName]=useState("Shreyash")
 
     function updateCount(){
         setCounter(count+1)
