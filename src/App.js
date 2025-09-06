@@ -1,5 +1,5 @@
 import './App.css';
-import {useRef, React, useState} from "react";
+import {React, createContext} from "react";
 import ChildA from "./ChildA";
 
 //Rule1: use parent element
