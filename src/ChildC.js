@@ -1,5 +1,5 @@
-import React from "react";
-import {data} from './App'
+import React, {useContext} from "react";
+import {data,data1} from './App'
 
 function ChildC(){
     const name = useContext(data);
