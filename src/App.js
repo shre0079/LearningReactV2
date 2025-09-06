@@ -21,3 +21,4 @@ const name= "Shreyash"
 }
 
 export default App;
+export {data};
