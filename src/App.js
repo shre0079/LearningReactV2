@@ -11,8 +11,15 @@ const data= createContext();
 const data1=createContext();
 
 function App() {
-const name= "Shreyash";
-const gender="Male";
+    const [add, setAdd]=useState(0);
+    const [minus, setMinus]=useState(100);
+
+    const multiply= useMemo( function multiply(){
+        console.log("@#$%")
+        return add*10;
+        },[add]
+    )
+
     return (
       <>
           <data.Provider value={name}>
