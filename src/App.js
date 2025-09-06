@@ -1,6 +1,5 @@
 import './App.css';
-import {React, createContext} from "react";
-import ChildA from "./ChildA";
+import React, {useMemo, useState} from "react";
 
 //Rule1: use parent element
 //Rule2: js expressions must be wrapped in {}
