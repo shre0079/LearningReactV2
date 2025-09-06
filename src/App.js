@@ -9,6 +9,8 @@ import ChildA from "./ChildA";
 
 
 const data= createContext();
+const data1=createContext();
+
 function App() {
 const name= "Shreyash"
     return (
