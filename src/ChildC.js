@@ -1,7 +1,7 @@
 import React from "react";
 import {data} from './App'
 
-function ChildC(name){
+function ChildC(){
 return(
     <>
         <data.Consumer>
