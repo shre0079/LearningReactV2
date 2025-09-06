@@ -13,8 +13,12 @@ function App() {
 const name= "Shreyash"
     return (
       <>
-          <data.Provider value ={name}>
-          <ChildA name={name}></ChildA>
+          <data.Provider value={name}>
+              <data1.Provider value={gender}>
+                  <ChildA>
+
+                  </ChildA>
+              </data1.Provider>
           </data.Provider>
       </>
   );
