@@ -13,7 +13,9 @@ function App() {
 const name= "Shreyash"
     return (
       <>
-          <ChildA npame={name}></ChildA>
+          <data.Provider value ={name}>
+          <ChildA name={name}></ChildA>
+          </data.Provider>
       </>
   );
 }
