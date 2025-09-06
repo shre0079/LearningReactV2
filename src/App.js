@@ -21,15 +21,14 @@ function App() {
     )
 
     return (
-      <>
-          <data.Provider value={name}>
-              <data1.Provider value={gender}>
-                  <ChildA>
-
-                  </ChildA>
-              </data1.Provider>
-          </data.Provider>
-      </>
+      <div className='App'>
+          <h1>Learning useMemo</h1>
+          {multiply}<br/>
+          <button onClick={()=>setAdd(add+1)}>Addition</button>
+          <span>{add}</span><br/>
+          <button onClick={()=>setMinus(minus-1)}>Substraction</button>
+          <span>{minus}</span><br/>
+      </div>
   );
 }
 
