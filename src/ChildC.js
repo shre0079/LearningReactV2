@@ -3,7 +3,17 @@ import {data} from './App'
 
 function ChildC(name){
 return(
-    <h1>Component C displays Name </h1>
+    <>
+        <data.Consumer>
+            {
+                (name)=>{
+                    return(
+                        <h1>My name is {name}</h1>
+                    )
+                }
+            }
+        </data.Consumer>
+    </>
 )
 }
 export default ChildC;
