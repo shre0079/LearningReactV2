@@ -15,14 +15,14 @@ function App() {
     },[])
 
     return (
-      <div className='App'>
-          <h1>Learning useMemo</h1>
-          {multiply}<br/>
-          <button onClick={()=>setAdd(add+1)}>Addition</button>
-          <span>{add}</span><br/>
-          <button onClick={()=>setMinus(minus-1)}>Substraction</button>
-          <span>{minus}</span><br/>
-      </div>
+        <div className='App'>
+          <h1>Learning useCallback</h1>
+            <ChildA Learning={Learning} count={count}/>
+          <h1>{add}</h1>
+            <button onClick={()=>setAdd(add+1)}>Addition</button>
+            <h1>{count}</h1>
+            <button onClick={()=>setCount(count+2)}>Count</button>
+        </div>
   );
 }
 
