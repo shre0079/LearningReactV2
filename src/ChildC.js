@@ -6,15 +6,7 @@ function ChildC(){
     const gender = useContext(data1);
 return(
     <>
-        <data.Consumer>
-            {
-                (name)=>{
-                    return(
-                        <h1>My name is {name}</h1>
-                    )
-                }
-            }
-        </data.Consumer>
+        <h1>Hi, I am {name}, I am {gender}</h1>
     </>
 )
 }

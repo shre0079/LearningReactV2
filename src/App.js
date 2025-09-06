@@ -6,13 +6,14 @@ import ChildA from "./ChildA";
 //Rule2: js expressions must be wrapped in {}
 //Rule3: can't use if-else but ternary is okay
 //Rule4: attribute class = classname
-
+//create, provider, useContext
 
 const data= createContext();
 const data1=createContext();
 
 function App() {
-const name= "Shreyash"
+const name= "Shreyash";
+const gender="Male";
     return (
       <>
           <data.Provider value={name}>
@@ -27,4 +28,4 @@ const name= "Shreyash"
 }
 
 export default App;
-export {data};
+export {data,data1};
