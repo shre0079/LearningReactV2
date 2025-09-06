@@ -2,6 +2,8 @@ import React from "react";
 import {data} from './App'
 
 function ChildC(){
+    const name = useContext(data);
+    const gender = useContext(data1);
 return(
     <>
         <data.Consumer>
