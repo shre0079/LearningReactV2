@@ -7,6 +7,8 @@ import ChildA from "./ChildA";
 //Rule3: can't use if-else but ternary is okay
 //Rule4: attribute class = classname
 
+
+const data= createContext();
 function App() {
 const name= "Shreyash"
     return (
