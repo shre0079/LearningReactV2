@@ -3,7 +3,8 @@ import ChildB from "./ChildB";
 
 function ChildA({}){
 return(
-    <ChildB></ChildB>
+    <ChildB>
+    </ChildB>
 )
 }
 export default ChildA;
