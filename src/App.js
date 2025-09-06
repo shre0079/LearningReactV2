@@ -10,13 +10,9 @@ import React, {useMemo, useState} from "react";
 
 function App() {
     const [add, setAdd]=useState(0);
-    const [minus, setMinus]=useState(100);
-
-    const multiply= useMemo( function multiply(){
-        console.log("@#$%")
-        return add*10;
-        },[add]
-    )
+    const [count, setCount]=useState(0);
+    const Learning=useCallback(()=>{
+    },[])
 
     return (
       <div className='App'>
