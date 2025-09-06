@@ -7,8 +7,6 @@ import React, {useMemo, useState} from "react";
 //Rule4: attribute class = classname
 //create, provider, useContext
 
-const data= createContext();
-const data1=createContext();
 
 function App() {
     const [add, setAdd]=useState(0);
@@ -33,4 +31,3 @@ function App() {
 }
 
 export default App;
-export {data,data1};
