@@ -1,12 +1,11 @@
-import React from "react";
-import ChildB from "./ChildB";
+import React, {memo} from "react";
 
 
 function ChildA(Learning,count){
     console.log("Child Component")
 return(
-    <ChildB>
-    </ChildB>
+    <>
+    </>
 )
 }
-export default ChildA;
+export default memo(ChildA);

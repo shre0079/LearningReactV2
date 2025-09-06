@@ -1,5 +1,6 @@
 import './App.css';
-import React, {useMemo, useState} from "react";
+import React, {use, useCallback, useMemo, useState} from "react";
+import ChildA from "./ChildA";
 
 //Rule1: use parent element
 //Rule2: js expressions must be wrapped in {}
